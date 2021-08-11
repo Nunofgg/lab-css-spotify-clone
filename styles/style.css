@@ -6,3 +6,156 @@ Green: #00B172
 White: #FFF
 
 */
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-size: 4em;
+    font-weight: 100;
+}
+
+h2 {
+    font-size: 1.6em;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFF;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+}
+
+.nav-bar img {
+    width: 150px;
+    padding: 5px 10px;
+}
+
+.nav-buttons ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav-buttons a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 15px;
+    font-size: 1em;
+}
+
+header {
+    background-image: url('../images/landing.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    text-align: center;
+}
+
+header h1 {
+    color: #FFF;
+}
+
+header p {
+    color: #FFF;
+    margin: 0 25%;
+    font-size: 1.4em;
+}
+
+.text-header {
+    padding-top: 230px;
+}
+
+.first-sect {
+    margin-top: 40px;
+}
+
+.first-sect h2 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.title-style-first-sect {
+    border-bottom:3px solid #00B172;
+    width: 280px;
+    margin: auto;
+}
+
+.first-sect-bar img {
+    width: 100px;
+}
+
+.first-sect-bar {
+    margin: 100px 0 50px 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;   
+}
+
+.first-sect-bar h3 {
+    color: #00B172;
+}
+
+.first-sect-bar-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 100px;
+}
+
+.second-sect {
+    background-color: #00B172;
+    height: 800px;
+    color: #FFF;
+}
+
+.second-sect h2 {
+    margin-bottom: 5px;
+    padding-top: 50px;
+}
+
+.title-style-second-sect {
+    border-bottom:3px solid #FFF;
+    width: 420px;
+    margin-left: 8%;
+    margin-bottom: 60px;
+}
+
+.image-spot {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
+
+.image-page {
+    width: 300px;
+    margin: 10px 8%;
+}
+
+.second-sect-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.second-sect-text {
+    margin-left: 8%;
+    margin-right: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
